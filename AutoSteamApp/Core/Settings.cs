@@ -14,7 +14,7 @@ namespace AutoSteamApp.Core
         public static ulong Off_SteamworksCombo = 0x4F87C30;
 
         public static ulong Off_SaveData = 0x5013950;
-        public static ulong Off_DiffSlot = 0x27E9F0; // start of each save slot data slotnr * off
+        public static ulong Off_DiffSlot = 0x26CC00; // start of each save slot data slotnr * off //27E9F0 - 11DF0
         #endregion
 
         private static uint _DelayBetweenCombo = 500;
